@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://vd1zn.sharepoint.com/sites/Rani",
+      "customActions": {
+        "4bc07988-20b6-4f4a-9c36-52172dcd0480": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "FirstApplicationCustomizer"
+          }
+        }
+      }
+    },
+    "firstApplicationCustomizer": {
+      "pageUrl": "https://vd1zn.sharepoint.com/sites/Rani",
+      "customActions": {
+        "4bc07988-20b6-4f4a-9c36-52172dcd0480": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "FirstApplicationCustomizer"
+          }
+        }
+      }
+    }
+  }
+}
